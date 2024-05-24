@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94 scan initiated Thu Apr 11 11:10:08 2024 as: nmap -sn -oX scan_results.xml 192.168.1.71/24 -->
+<nmaprun scanner="nmap" args="nmap -sn -oX scan_results.xml 192.168.1.71/24" start="1712851808" startstr="Thu Apr 11 11:10:08 2024" version="7.94" xmloutputversion="1.05">
+<verbose level="0"/>
+<debugging level="0"/>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.1" addrtype="ipv4"/>
+<address addr="4C:AB:F8:7F:08:F5" addrtype="mac" vendor="Askey Computer"/>
+<hostnames>
+<hostname name="SAX1V1K.lan" type="PTR"/>
+</hostnames>
+<times srtt="17000" rttvar="17000" to="100000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.10" addrtype="ipv4"/>
+<address addr="CC:08:FA:81:20:64" addrtype="mac"/>
+<hostnames>
+<hostname name="MacBook-Air-2.lan" type="PTR"/>
+</hostnames>
+<times srtt="55953" rttvar="61718" to="302825"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.24" addrtype="ipv4"/>
+<address addr="A8:B5:7C:FA:FF:30" addrtype="mac" vendor="Roku"/>
+<hostnames>
+<hostname name="LMR-RokuExpress4K.lan" type="PTR"/>
+</hostnames>
+<times srtt="71625" rttvar="68250" to="344625"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.118" addrtype="ipv4"/>
+<address addr="0C:43:F9:7D:76:AC" addrtype="mac" vendor="Amazon Technologies"/>
+<hostnames>
+</hostnames>
+<times srtt="13000" rttvar="13000" to="100000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.237" addrtype="ipv4"/>
+<address addr="FC:E9:D8:D4:FF:BA" addrtype="mac" vendor="Amazon Technologies"/>
+<hostnames>
+</hostnames>
+<times srtt="146000" rttvar="146000" to="730000"/>
+</host>
+<host><status state="up" reason="localhost-response" reason_ttl="0"/>
+<address addr="192.168.1.71" addrtype="ipv4"/>
+<hostnames>
+<hostname name="host.docker.internal" type="PTR"/>
+</hostnames>
+</host>
+<runstats><finished time="1712851851" timestr="Thu Apr 11 11:10:51 2024" summary="Nmap done at Thu Apr 11 11:10:51 2024; 256 IP addresses (6 hosts up) scanned in 42.72 seconds" elapsed="42.72" exit="success"/><hosts up="6" down="250" total="256"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,4 @@
+# Nmap 7.94 scan initiated Thu Apr 11 13:34:01 2024 as: nmap -Pn --script vuln -oA nmapscanCVE 192.168.1.24
+Host: 192.168.1.24 (LMR-RokuExpress4K.lan)	Status: Up
+Host: 192.168.1.24 (LMR-RokuExpress4K.lan)	Ports: 7000/open/tcp//afs3-fileserver///	Ignored State: closed (999)
+# Nmap done at Thu Apr 11 13:34:28 2024 -- 1 IP address (1 host up) scanned in 26.83 seconds
